@@ -29,7 +29,7 @@ public class Fuel : MonoBehaviour
 
     void Remakefuel()
     {
-        Vector2 Fuelpos = new Vector2(Random.Range(-48f, 48f), Random.Range(-18f, 18f));
+        Vector2 Fuelpos = new Vector2(Random.Range(-40f, 40f), Random.Range(-18f, 18f));
         Instantiate(fuel, Fuelpos, Quaternion.identity);
         Destroy(gameObject);
     }
