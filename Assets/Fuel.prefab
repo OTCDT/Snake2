@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -3113615443946935156}
   - component: {fileID: 5090538589525139622}
   m_Layer: 0
-  m_Name: Fuel
+  m_Name: fuel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
