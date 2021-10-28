@@ -5,8 +5,57 @@ using UnityEngine.SceneManagement;
 
 public class Player2 : MonoBehaviour
 {
-    public void TakeDamage (int damage)
-    {
-        SceneManager.LoadScene(2);
-    }
+	public Transform TrailMaker;
+	public GameObject TrailPrefab;
+
+	[HideInInspector]
+	public Trail thegame;
+	public GameObject thegame2;
+
+	void Start()
+	{
+		thegame = thegame2.GetComponent<Trail>();
+		thegame.newtime = 0;
+		thegame.timeRemaining = 1;
+	}
+
+	void Update()
+	{
+		MakeTrail();
+	}
+
+	void MakeTrail()
+	{
+		Instantiate(TrailPrefab, TrailMaker.position, TrailMaker.rotation);
+	}
+
+	void OnTriggerEnter2D(Collider2D hitInfo)
+	{
+		Trail trail = hitInfo.GetComponent<Trail>();
+		Player1 player1 = hitInfo.GetComponent<Player1>();
+		Fuel fuel = hitInfo.GetComponent<Fuel>();
+		Wall wall = hitInfo.GetComponent<Wall>();
+		
+		if (player1 != null)
+		{
+			SceneManager.LoadScene(4);
+			Destroy(gameObject);
+		} 
+		if (trail != null)
+		{
+			SceneManager.LoadScene(2);
+			Destroy(gameObject);
+		}
+		if (fuel != null)
+		{
+			thegame.newtime += 0.5f;
+		}
+		if (wall != null)
+		{
+			SceneManager.LoadScene(2);
+			Destroy(gameObject);
+		}
+
+	}
+
 }

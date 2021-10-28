@@ -15,8 +15,8 @@ public class Player1 : MonoBehaviour
 	void Start()
     {
 		thegame = thegame2.GetComponent<Trail>();
-		thegame.newtime = 1;
-		thegame.timeRemaining = 2;
+		thegame.newtime = 0;
+		thegame.timeRemaining = 1;
 	}
 
 	void Update()
@@ -31,23 +31,29 @@ public class Player1 : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D hitInfo)
 	{
-		Trail trail =     hitInfo.GetComponent<Trail>();
+		Trail trail = hitInfo.GetComponent<Trail>();
 		Player2 player2 = hitInfo.GetComponent<Player2>();
-		Fuel fuel =       hitInfo.GetComponent<Fuel>();
+		Fuel fuel = hitInfo.GetComponent<Fuel>();
+		Wall wall = hitInfo.GetComponent<Wall>();
 
 		if (player2 != null)
 		{
-			
+			SceneManager.LoadScene(4);
 			Destroy(gameObject);
 		}
 		if (trail != null)
 		{
-			
+			SceneManager.LoadScene(3);
 			Destroy(gameObject);
 		}
 		if (fuel != null)
 		{
-			thegame.newtime ++;
+			thegame.newtime += 0.5f;
+		}
+		if (wall != null)
+		{
+			SceneManager.LoadScene(3);
+			Destroy(gameObject);
 		}
 
 	}

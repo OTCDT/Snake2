@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Player2Wins.unity
     guid: 35f015b083535ed46add6925c8dbeba6
+  - enabled: 1
+    path: Assets/Scenes/Tie.unity
+    guid: 139063add7098ad4e8686df390e63360
   m_configObjects: {}
