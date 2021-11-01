@@ -17,6 +17,8 @@ public class Player1 : MonoBehaviour
 		thegame = thegame2.GetComponent<Trail>();
 		thegame.newtime = 0;
 		thegame.timeRemaining = 1;
+
+		Time.timeScale = 1f;
 	}
 
 	void Update()

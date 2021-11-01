@@ -277,7 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 157077497}
-  speed: 150
+  speed: 200
 --- !u!114 &157077505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -869,7 +869,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: dfd4d76ea7c50924191db741e42dc953, type: 2}
-  m_audioClip: {fileID: 8300000, guid: e60c2eea2ffc64644b069c4d563d915a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3547596af0c005949bd512252b0e2cac, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1858,7 +1858,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530887667}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.26, y: -0.8048, z: 0}
+  m_LocalPosition: {x: 43.34, y: -0.8048, z: 0}
   m_LocalScale: {x: 1.6138986, y: 42.378853, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2246,7 +2246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2047241028}
-  speed: 150
+  speed: 200
 --- !u!114 &2047241034
 MonoBehaviour:
   m_ObjectHideFlags: 0

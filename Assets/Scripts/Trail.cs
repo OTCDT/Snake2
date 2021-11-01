@@ -19,12 +19,10 @@ public class Trail : MonoBehaviour
 		if (timeRemaining > 0)
 		{
 			timeRemaining -= Time.deltaTime;
-			Debug.Log(timeRemaining);
 		}
 		else if (timeRemaining < 0)
 		{
 			Destroy(gameObject);
-			Debug.Log("gone");
 		}
 	}
 
