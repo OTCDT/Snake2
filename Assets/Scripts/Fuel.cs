@@ -12,6 +12,7 @@ public class Fuel : MonoBehaviour
         Player1 player1 = hitInfo.GetComponent<Player1>();
         Player2 player2 = hitInfo.GetComponent<Player2>();
         Wall wall = hitInfo.GetComponent<Wall>();
+        Trail trail = hitInfo.GetComponent<Trail>();
 
         if (player1 != null)
         {
@@ -25,6 +26,10 @@ public class Fuel : MonoBehaviour
         {
             Remakefuel();
         }
+      //  if (trail != null)
+     //   {
+      //      Remakefuel();
+     //   }		
     }
 
     void Remakefuel()
