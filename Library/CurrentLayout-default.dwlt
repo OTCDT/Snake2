@@ -398,9 +398,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 8acfc4ff96d0c4ff284ec7ffce4ec7ffeae5d2ff3a43d8ff2a1de1ff421de1ff4a1de1ff541de1ff5e1de1ff6c1de1ff761de1ffee1de1ff061ee1ff081fe1ff121fe1ff1c1fe1ff3a1fe1ff441fe1ffc8f8ffffe2f9ffff40fbffffc6430000ee430000f44300001244000042440000b64700000a480000769a00009e9a0000a49a0000c29a0000f29a000064b50000b8b50000f0ce000050cf0000
+      m_SelectedIDs: ce470000
+      m_LastClickedID: 18382
+      m_ExpandedIDs: 4af8ffff7ef9ffff6847000004480000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -460,9 +460,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 14.740045, y: -0.8029099, z: -67.295006}
+    m_Target: {x: 20.811764, y: 20.026783, z: -190.07686}
     speed: 2
-    m_Value: {x: 14.740045, y: -0.8029099, z: -67.295006}
+    m_Value: {x: 20.811764, y: 20.026783, z: -190.07686}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -513,9 +513,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 40.96122
+    m_Target: 48.784946
     speed: 2
-    m_Value: 40.96122
+    m_Value: 48.784946
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -776,22 +776,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/Player2
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\landonp\Documents\GitHub\Snake2
+  m_LastProjectPath: C:\Users\Playtech\Documents\GitHub\Snake2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 00450000
-    m_LastClickedID: 17664
-    m_ExpandedIDs: 00000000f844000000ca9a3b
+    m_SelectedIDs: 4a470000
+    m_LastClickedID: 18250
+    m_ExpandedIDs: 000000004047000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -819,7 +819,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f8440000
+    m_ExpandedIDs: 0000000040470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
