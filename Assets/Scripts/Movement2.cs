@@ -19,6 +19,12 @@ public class Movement2 : MonoBehaviour
 
     void Update()
     {
+    if (Time.timeScale == 0f)
+    {
+
+    }
+    else
+    {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.RotateAround(player.transform.position, Vector3.forward, turnspeed * Time.deltaTime);
@@ -45,5 +51,6 @@ public class Movement2 : MonoBehaviour
 
         // Move in the direction of the direction vector every frame.
         player.transform.position += dirction * Time.deltaTime * speed;
+    }
     }
 }

@@ -19,6 +19,13 @@ public class Movement1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    if (Time.timeScale == 0f)
+    {
+
+    }
+    else
+    {
+
         if (Input.GetKey(KeyCode.A))
         {
             transform.RotateAround(player.transform.position, Vector3.forward, turnspeed * Time.deltaTime);
@@ -45,6 +52,6 @@ public class Movement1 : MonoBehaviour
 
         // Move in the direction of the direction vector every frame.
         player.transform.position += dirction * Time.deltaTime * speed;
-
+    }
     }
 }

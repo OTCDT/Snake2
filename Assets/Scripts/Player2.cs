@@ -26,7 +26,14 @@ public class Player2 : MonoBehaviour
 
 	void MakeTrail()
 	{
-		Instantiate(TrailPrefab, TrailMaker.position, TrailMaker.rotation);
+		if (Time.timeScale == 0f)
+		{
+
+		}
+		else
+		{
+			Instantiate(TrailPrefab, TrailMaker.position, TrailMaker.rotation);
+		}
 	}
 
 	void OnTriggerEnter2D(Collider2D hitInfo)
