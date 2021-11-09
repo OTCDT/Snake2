@@ -37,7 +37,7 @@ public class Movement2 : MonoBehaviour
 
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            speed = 8;
+            speed = 9;
         }
         else
         {
