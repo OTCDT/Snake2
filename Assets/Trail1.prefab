@@ -134,6 +134,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbf31fa961f768d49bfad4700ce47449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 40
-  rb: {fileID: 0}
   timeRemaining: 3
+  newtime: 0
