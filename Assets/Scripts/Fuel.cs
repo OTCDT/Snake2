@@ -26,10 +26,6 @@ public class Fuel : MonoBehaviour
         {
             Remakefuel();
         }
-      //  if (trail != null)
-     //   {
-      //      Remakefuel();
-     //   }		
     }
 
     void Remakefuel()
@@ -39,4 +35,5 @@ public class Fuel : MonoBehaviour
         Destroy(gameObject);
     }
 }
+
 

@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class Trail : MonoBehaviour
 {
-
 	public float timeRemaining;
 	public float newtime;
-	
 	
 	void Start()
     {
@@ -27,3 +25,4 @@ public class Trail : MonoBehaviour
 	}
 
 }
+
