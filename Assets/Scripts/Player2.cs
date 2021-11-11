@@ -26,11 +26,7 @@ public class Player2 : MonoBehaviour
 
 	void MakeTrail()
 	{
-		if (Time.timeScale == 0f)
-		{
-
-		}
-		else
+		if (Time.timeScale != 0f)
 		{
 			Instantiate(TrailPrefab, TrailMaker.position, TrailMaker.rotation);
 		}

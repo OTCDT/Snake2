@@ -5,8 +5,8 @@ using UnityEngine;
 public class Attractor : MonoBehaviour
 {
 
-	// the script has been edited a little but is still very similar to the original post
-	public float speed;
+	
+	public float speed; // how fast the object is moved
 	public GameObject object1; // The game object that moves.
 	public GameObject object2; // the game object that Object 1 moves to.
 
@@ -22,3 +22,7 @@ public class Attractor : MonoBehaviour
 		object1.transform.position += dirction * Time.deltaTime * speed;
 	}
 }
+
+
+
+
