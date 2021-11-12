@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    //This code will load a scene that is chosen in the Onclick()
     public void Loadscene(int lvlNum)
     {
         SceneManager.LoadScene(lvlNum);
-        Time.timeScale = 1f;
+        Time.timeScale = 1f; //This resets the Time.timeScale back to default (1)
     }
 }
